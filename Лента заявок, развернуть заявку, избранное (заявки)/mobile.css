@@ -1,0 +1,68 @@
+﻿.page-header__wrapper {
+	padding: 0 20px;
+}
+.page-header_logo img{
+	width:91px;
+}
+.page-header__item {
+    margin-right: 9px;
+}
+.search_block svg{
+	position: inherit;
+	margin-right: 10px;
+	width:36px;
+	height:36px;
+}
+.like{
+	width:28px;
+}
+.alerts{
+	width:20px;
+}
+.profile{
+	margin:0;
+	width:22px;
+}
+.application .top h2 {
+    font-size: 15px;
+}
+p.description{
+	font-size:13px;
+	margin:0;
+}
+.price {
+    font-size: 19px;
+    margin-top: 10px;
+}
+.avtor {
+    font-size: 13px;
+}
+.application {
+    border-radius: 5px;
+    padding: 10px 7px;
+}
+.b-content, .b-applications, .new-application, .b-more, .add-to-favorites, .respond {
+	font-size:13px;
+}
+.new-application, .b-more{
+	height:32px
+}
+.b-content, .b-applications{
+	height:27px;
+}
+.category {
+    margin: 11px 0 20px 0;
+}
+.buttons{
+	align-items: center;
+	margin: 24px 0 10px 0;
+}
+.add-to-favorites, .respond {
+    width: 60%;
+    height: 27px;
+    border-radius: 5px;
+    margin-top: 16px;
+}
+.page-footer {
+    margin-top: 17px;
+}
