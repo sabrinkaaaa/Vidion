@@ -1,0 +1,45 @@
+.wrapper_for_header{
+    padding: 0 25px 0px 19px;
+}
+.nav_item{
+    margin-right: 15px;
+}
+.search_line{
+    display:none;
+}
+.search{
+    display:none;
+}
+.nav_item:first-child{
+    display: block;    
+}
+.lupa{
+    margin-right: 10px;
+	width:46px;
+	height:46px;
+}
+.nav_item:first-child rect{
+	fill:white;
+}
+.nav_item:first-child circle{
+	stroke:white;
+}
+.main_wrapper{
+   justify-content: center;
+   flex-direction: column;
+   padding-left: 0;
+   padding-right: 0; 
+}
+.left_container{
+    justify-content: center;
+    width: 100%;
+}
+.left_container a{
+    margin-bottom: 25px;
+}
+.right_container{
+    justify-content: center;
+}
+.right_container_wrapper{
+    margin-left: 0px;
+}
