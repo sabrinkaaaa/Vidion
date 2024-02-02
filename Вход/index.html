@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/fonts.css" media="all">
+    <link rel="stylesheet" href="./css/reset.css" media="all">
+    <link rel="stylesheet" href="./css/style.css" media="all">
+    <link rel='stylesheet' href="./css/tablet.css" media='only screen and (max-width:901px)'>
+    <link rel='stylesheet' href="./css/mobile.css" media='only screen and (max-width:425px)'>
+    <link rel="shortcut icon" href="./img/иконка.png">
+    <title>Вход/Регистрация</title>
+</head>
+<body>
+    <header>
+        <div class="header_wrapper">
+            <header class="header">
+                <div class="wrapper_for_header">
+                    <div class="vidion_logo">
+                        <img src="./img/логотип.svg" alt="VIDION">
+                    </div>
+                    <div class="searching">
+                        <input class="search_line" spellcheck="false" placeholder=" ">
+                        <div class="search">
+                            <a href="#!" class="link">
+                                <svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <rect x="16.2399" y="17.4656" width="1.63521" height="4.36056" rx="0.817606" transform="rotate(-45.8689 16.2399 17.4656)" fill="#4D2A6B"/>
+                                    <circle cx="11.2371" cy="11.0934" r="6.48254" transform="rotate(-45.8689 11.2371 11.0934)" stroke="#4D2A6B" stroke-width="2"/>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                    <nav class="navigation">
+                        <ul class="nav_list">
+                            <li class="nav_item">
+                                <a href="#!" class="nav_link">
+                                    <svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <rect x="16.2399" y="17.4656" width="1.63521" height="4.36056" rx="0.817606" transform="rotate(-45.8689 16.2399 17.4656)" fill="#4D2A6B"></rect>
+                                        <circle cx="11.2371" cy="11.0934" r="6.48254" transform="rotate(-45.8689 11.2371 11.0934)" stroke="#4D2A6B" stroke-width="2"></circle>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li class="nav_item">
+                                <a href="#!" class="nav_link">
+                                    <img src="./img/Union.svg" alt="Избранное" title="Избранное">
+                                </a>
+                            </li>
+                            <!--<li class="nav_item">
+                                <a href="#!" class="nav_link">
+                                    <img src="./img/уведомления.svg" alt="Уведомления" titile="Уведомления">
+                                </a>
+                            </li>
+                            <li class="nav_item" id="profile" title="Личный кабинет">
+                                <a href="#!" class="nav_link">
+                                    <img src="./img/фото профиля.svg" alt="Профиль" title="Профиль">
+                                </a>
+                            </li>-->
+                            <li class="nav_item">
+                                <a href="#!" class="nav_link">
+                                    <img src="./img/авторизоваться.svg"/ alt="Авторизоваться" title="Авторизоваться">
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="wrapper_for_menu">
+                    <div class="toggle" id="menu">
+                        <div class="menu">
+                            <a href="#!">Мой профиль</a>
+                            <a href="#!">Выйти</a>
+                        </div>
+                    </div>
+                </div>
+        </div>
+    </header>
+    <div class="wrapper">
+        <main>
+            <div class="main_wrapper">
+                <div class="top_container">
+                    <input class="check" type="checkbox" id="check"/>
+                    <label for="check" class="entry_registration" id="ch">
+                        <div class="entry_wrapper">
+                            <h1>Вход</h1>
+                            <h1>Регистрация</h1>
+                        </div>
+                    </label>
+                </div>
+                <button class="vk">Войти через ВКонтакте</button>
+                <section class="entry" id="entry">
+                    <form class="input_wrapper" action="#!" enctype="multipart/form-data" method="post">
+                        <input class="input_data" type="email" spellcheck="false" maxlength="50" placeholder="Почта или номер телефона"/>
+                        <input class="input_data" type="password" spellcheck="false" maxlength="20" placeholder="Пароль"/>
+                        <a href="#!">Забыли пароль?</a>
+                        <div class="in_entry_wrapper">
+                            <button class="in_entry" type="submit">Войти</button>
+                        </div>
+                    </form>
+                </section>
+                <section class="registration" id="registration">
+                    <form class="input_wrapper" action="#!" enctype="multipart/form-data" method="post" id="reg_form">
+                        <input class="input_small" spellcheck="false" maxlength="50" placeholder="Имя"/>
+                        <input class="input_small" spellcheck="false" maxlength="50" placeholder="Фамилия"/>
+                        <input class="input_small" spellcheck="false" maxlength="50" placeholder="*Имя пользователя" required />
+                        <input class="input_small" spellcheck="false" maxlength="50" type="email" placeholder="*Почта" required />
+                        <input class="input_small" spellcheck="false" maxlength="12" type="tel" pattern="^((8|\+7)[\- ]?)?(\(?\d{3}\)?[\- ]?)?[\d\- ]{7,10}$" placeholder="Номер телефона"/>
+                        <input class="input_small" spellcheck="false" maxlength="20" id="old_password" type="password" placeholder="*Пароль" required />
+                        <input class="input_small" spellcheck="false" maxlength="20" id="new_password" type="password" placeholder="*Повтор пароля" required />
+                        <p class="exception">Пароли не совпадают!</p>
+                        <div class="enter_avatar">
+                            <a href="#!">Выбрать аватар</a>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="110" height="110" viewBox="0 0 110 110" fill="none">
+                                <circle cx="55" cy="55" r="55" fill="#D9D9D9"/>
+                            </svg>
+                        </div>
+                        <div class="terms_of_use">
+                            <input class="gal" type="checkbox" required/>
+                            <a href="#!">Пользовательское соглашение</a>
+                        </div>
+                        <div class="bottom_button">
+                            <button class="reg" type="submit">Зарегистрироваться</button>
+                        </div>
+                    </form>
+
+                </section>
+            </div>  
+        </main>
+       <footer>
+            <div class="footer_wrapper">
+                <span class="top_text">
+                    <a href="#!" class="text_link">О нас</a>
+                        <a href="#!" class="text_link">Правила Vidion</a>
+                        <a href="#!" class="text_link">Помощь</a>
+                        <a href="https://vk.com/vidionn" target="_blank" class="text_link">Мы в Вконтакте</a>
+                </span>
+                <span class="bottom_text">
+                    <a href="#!" class="text_link">Информация об организации, год, умные штуки</a>
+                </span>
+            </div>   
+        </footer>
+    </div>
+</body>
+<script src="./app.js"></script>
+</html>

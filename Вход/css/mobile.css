@@ -1,0 +1,20 @@
+.wrapper_for_header{
+    padding: 0 20px;
+}
+.vidion_logo{
+    width:91px;
+}
+.search_line{
+    display:none;
+}
+.search{
+    display:none;
+}
+.nav_list{
+    height: 31px;
+}
+.nav_item{
+    margin-top: 0;
+    width: 28px;
+    margin-right: 9px;
+}

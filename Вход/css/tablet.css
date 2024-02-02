@@ -1,0 +1,36 @@
+.wrapper_for_header{
+    padding: 0 25px 0px 19px;
+}
+.nav_item{
+    padding-right: 15px;
+}
+.search_line{
+    display:none;
+}
+.search{
+    display:none;
+}
+.nav_item:first-child{
+    margin-top:16px;
+    display: block;    
+}
+.nav_item svg{
+    margin-right: 10px;
+	width:46px;
+	height:46px;
+}
+.nav_item:first-child rect{
+	fill:white;
+}
+.nav_item:first-child circle{
+	stroke:white;
+}
+.nav_item{
+	margin-top:10px;
+}
+.input_data{
+    width: 450px;
+}
+.input_data_big{
+    width: 450px;
+}
