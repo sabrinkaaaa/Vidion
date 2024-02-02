@@ -1,0 +1,116 @@
+html{
+    -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+    -webkit-tap-highlight-color: transparent;
+}
+.wrapper_for_header{
+    padding: 0 25px 0px 19px;
+}
+.nav_item{
+    margin-right: 15px;
+}
+.search_line{
+    display:none;
+}
+.search{
+    display:none;
+}
+.nav_item:first-child{
+    display: block;    
+}
+.lupa{
+    margin-right: 10px;
+	width:46px;
+	height:46px;
+}
+.nav_item:first-child rect{
+	fill:white;
+}
+.nav_item:first-child circle{
+	stroke:white;
+}
+
+/*Раздел Main*/
+
+.main{
+    flex-direction: column;
+    align-items: center;
+}
+.personal_block {
+    padding-left: 0;
+}
+.number{
+    display: flex;
+    justify-content: center;
+}
+.no_content_wrapper{
+    margin-top: 50px;   
+    margin-bottom: 150px;
+}
+.no_content_wrapper p{
+    font-size: 18px;
+}
+.no_content_image{
+    margin-bottom: 52px;
+}
+.person_profile{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 368px;
+    height: 190px;
+    border: none;
+    background-color: #F7F7F7;
+    margin-bottom: 9px;
+}
+.person_sircle{
+    width: 81.207px;
+    height: 79px;
+}
+.person_profile div{
+    align-items: center;
+}
+.value{
+    font-size: 13px;
+    text-align: center;
+}
+.count_of_deals{
+    font-size: 13px;
+    margin-top: 20px;
+}
+.links_on_pay{
+    display: flex;
+    flex-direction: row;
+    width: 134px;
+    justify-content: space-between;
+}
+.container{
+    margin-bottom: 5px;
+}
+.buttons_blockes{
+    display: flex;
+    flex-direction: row;
+    width: 368px;
+    justify-content: space-between;
+}
+.buttons_block:last-child {
+    top: 0px;
+}
+.buttons_block{
+    top: 0px;
+    left: 0px;
+}
+.buttons{
+    text-align: center;
+}
+.buttons_container button:first-child{
+    margin-top: 20px;
+}
+.news_wrapper{
+    justify-content: space-around;
+}
+.applications_wrapper{
+    padding-left: 0px;
+}
+.more_button_wrapper{
+    margin-left: 0px;
+}
