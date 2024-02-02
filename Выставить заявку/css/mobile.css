@@ -1,0 +1,77 @@
+html{
+    -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+    -webkit-tap-highlight-color: transparent;
+}
+.wrapper_for_header{
+    padding: 0 20px;
+}
+.vidion_logo svg{
+    width:91px;
+    height: 25px;
+}
+.search_line{
+    display:none;
+}
+.search{
+    display:none;
+}
+
+.nav_item{
+    padding-right: 0;
+}
+.item_wrapper_lupa svg{
+    width: 30px;
+    height:30px;
+    margin-right: 5px;
+}
+.like{
+    width:25.52px;
+    height:25.52px;
+}
+.alerts{
+    width: 20.05px;
+    height: 21px;
+}
+.profile{
+    width:22px;
+    height:22px;
+}
+.item_wrapper{
+    margin-right: 9px;
+}
+.input_data{
+    padding-left: 8px;
+    padding-right: 8px;
+    width: 331px;
+    height: 24.763px;
+    font-size: 15px;
+    border-radius: 5px;
+    border: 2px solid #4D2A6B;
+}
+.description{
+    font-size: 11px;
+}
+.input_data_big{
+    padding-left: 8px;
+    padding-right: 8px;
+    width: 331px;
+    font-size: 12px;
+    border-radius: 5px;
+    border: 2px solid #4D2A6B;
+    outline: none;
+}
+wrapper{
+    margin-bottom: 14px;
+}
+.radio_button{
+    width: 14px;
+    height: 14px;
+}
+.button_wrapper h1{
+    font-size: 11px;
+}
+.btn{
+    width: 170px;
+    height: 27px;
+    font-size: 12px;
+}
