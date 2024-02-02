@@ -1,0 +1,147 @@
+html{
+    -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+    -webkit-tap-highlight-color: transparent;
+}
+a:hover{
+    transform: none;
+    -webkit-transform: none;
+    -moz-transform: none;
+    -ms-transform: none;
+    -o-transform: none;
+}
+
+/* Раздел header */
+
+header{
+    height: 56px;
+}
+.wrapper_for_header{
+    padding: 0 20px;
+}
+.vidion_logo svg{
+    width:91px;
+    height: 25px;
+}
+.search_line{
+    display:none;
+}
+.search{
+    display:none;
+}
+.wrapper_for_search{
+    padding-top: 0px;
+}
+.special_search{
+    width: 300px;
+    height: 25px;
+    font-size: 13px;
+}
+.nav_item{
+    margin-right: 5px;
+}
+.nav_item:first-child{
+    margin-top:0px;  
+}
+.item_wrapper_lupa svg{
+    width: 30px;
+    height:30px;
+    margin-right: 5px;
+}
+.like{
+    width:25.52px;
+    height:25.52px;
+}
+.alerts{
+    width: 20.05px;
+    height: 21px;
+}
+.profile{
+    width:22px;
+    height:22px;
+}
+.log{
+    width: 20px;
+    height: 22px;
+}
+
+.main{
+    align-items: center;
+    width: 100%;
+}
+.item_wrapper{
+    margin-right: 9px;
+}
+.input_data{
+    padding-left: 8px;
+    padding-right: 8px;
+    width: 313.347px;
+    height: 21.977px;
+    font-size: 15px;
+    border-radius: 5px;
+    border: 2px solid #4D2A6B;
+}
+.description{
+    font-size: 11px;
+    margin-bottom: 25px;
+    width: 330.559px;
+    margin-bottom: 12.5px;
+}
+.description1{
+    font-size: 11px;
+    width: 330.559px;
+}
+.description2{
+    font-size: 10px; 
+    width: 330.559px;
+    margin-bottom: 12.5px;
+}
+.loan{
+    width: 330.559px;
+}
+.gene{
+    width: 330.559px;
+}
+.gen{
+    font-size: 10px;
+}
+.loa{
+    font-size: 10px;
+}
+.input_data_big{
+    padding-left: 8px;
+    padding-right: 8px;
+    width: 313.347px;
+    height: 337.347px;
+    font-size: 12px;
+    border-radius: 5px;
+    border: 2px solid #4D2A6B;
+    outline: none;
+}
+.intro{
+    padding-top: 0px;
+    width: 330.559px;
+    height: 142.574px;
+}
+.intr{
+    width: 214.929px;
+    height: 142.574px;
+}
+.wrapper{
+    margin-bottom: 14px;
+}
+.radio_button{
+    width: 14px;
+    height: 14px;
+}
+.posting{
+ margin-bottom: 0px;
+}
+.button_wrapper h1{
+    font-size: 11px;
+}
+.btn{
+    margin-top: 13px;
+    width: 170px;
+    height: 27px;
+    font-size: 12px;
+}
