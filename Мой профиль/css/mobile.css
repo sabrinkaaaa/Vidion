@@ -1,0 +1,193 @@
+html{
+    -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+    -webkit-tap-highlight-color: transparent;
+}
+a:hover{
+    transform: none;
+    -webkit-transform: none;
+    -moz-transform: none;
+    -ms-transform: none;
+    -o-transform: none;
+}
+
+/* Раздел header */
+
+header{
+    height: 56px;
+}
+.wrapper_for_header{
+    padding: 0 20px;
+}
+.vidion_logo svg{
+    width:91px;
+    height: 25px;
+}
+.search_line{
+    display:none;
+}
+.search{
+    display:none;
+}
+.wrapper_for_search{
+    padding-top: 0px;
+}
+.special_search{
+    width: 300px;
+    height: 25px;
+    font-size: 13px;
+}
+.nav_item{
+    margin-right: 5px;
+}
+.nav_item:first-child{
+    margin-top:0px;  
+}
+.item_wrapper_lupa svg{
+    width: 30px;
+    height:30px;
+    margin-right: 5px;
+}
+.like{
+    width:25.52px;
+    height:25.52px;
+}
+.alerts{
+    width: 20.05px;
+    height: 21px;
+}
+.profile{
+    width:22px;
+    height:22px;
+}
+.log{
+    width: 20px;
+    height: 22px;
+}
+
+/* Раздел main*/
+
+.main{
+    flex-direction: column;
+    align-items: center;
+}
+.personal_block {
+    padding-left: 0;
+}
+.person_profile{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 368px;
+    height: 214px;
+    border: none;
+    background-color: #F7F7F7;
+    margin-bottom: 9px;
+}
+.person_sircle{
+    width: 81.207px;
+    height: 79px;
+}
+.person_profile div{
+    align-items: center;
+}
+.value{
+    font-size: 13px;
+    text-align: center;
+}
+.count_of_deals{
+    font-size: 13px;
+}
+.links_on_pay{
+    display: flex;
+    flex-direction: row;
+    width: 134px;
+    justify-content: space-between;
+}
+.container{
+    margin-bottom: 5px;
+}
+.buttons_blockes{
+    display: flex;
+    flex-direction: row;
+    width: 368px;
+    justify-content: space-between;
+}
+.buttons_block:last-child {
+    top: 0px;
+}
+.buttons_block{
+    top: 0px;
+    left: 0px;
+}
+.buttons_container{
+    flex-direction: row;
+    border: 1px solid #8B8B8B;
+    height: 36px;
+}
+.buttons{
+    width: 55px;
+    height: 15px;
+    background-color: white;
+    font-size: 11px;
+    margin-top: 12px;
+    margin-left: 10px;
+    margin-right: 20px;
+}
+.buttons_container button:first-child{
+    margin-top: 12px;
+}
+#activeNews{
+    color: #4D2A6B;
+    font-weight: 800;
+    background-color: white;
+}
+.news_wrapper{
+    padding-top: 0px;
+    justify-content: center;
+    align-items: center;
+
+}
+.new{
+    border: 2px solid #4D2A6B;
+    width: 306.105px;
+    height: 326.821px;
+    margin-left: 0;
+}
+.title{
+
+    font-size: 15px;
+}
+.nickname{
+    font-size: 13px;
+}
+.bottom_description{
+    font-size: 12px;
+}
+.price{
+    font-size: 19px;
+}
+.more{
+    width: 138.133px;
+    height: 20px;
+    font-size: 12px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.application_container{
+    width: 346px;
+    height: 163px;
+
+}
+.applications_wrapper{
+    padding-left: 0px;
+    padding-top: 0px;
+}
+.application_container span {
+    margin-bottom: 6px;
+}
+.more_button_wrapper{
+    margin-left: 0;
+}
