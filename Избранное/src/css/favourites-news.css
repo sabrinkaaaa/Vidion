@@ -1,0 +1,205 @@
+html, body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    font-weight: 400;
+    background-color: #f9fdff;
+    margin: 0;
+    font-family: 'Source Sans Pro', 'Arial', sans-serif;
+}
+
+h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1440px;
+    min-width: 320px;
+    /* padding: 0 50px 0 50px; */
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+
+
+
+/* ШАПКА */
+header {
+    position:sticky;
+    top: 0;
+    background-color: #4d2a6b;
+}
+
+.page-header__wrapper {
+    height: 60px;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+
+.search_block {
+    display: block;
+    margin: auto auto auto 30px;
+    padding-bottom: 5px;
+}
+
+.search_bar {
+    border: 0;
+    border-radius: 30px;
+    width: 400px;
+    height: 25px;
+}
+.search_bar::placeholder {
+    padding-left: 20px;
+}
+
+.search_block svg {
+    position: relative;
+    right: 40px;
+    top: 10px;
+}
+
+.page-header__item {
+    margin-right: 20px;
+}
+
+
+/* БЛОК НОВОСТЕЙ */
+main {
+    padding-top: 50px;
+    flex-grow: 1;
+}
+
+.news-tape {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0;
+}
+
+.article-title {
+    padding: 10px 0 5px 10px;
+}
+
+.article-title h3 {
+    padding: 5px;
+
+}
+
+.news-profile {
+    display: flex;
+    align-items: center;
+}
+
+.news-profile p {
+    margin-left: 10px;
+}
+
+.news-card {
+    display: inline-block;
+    border: 2px solid #4d2a6b;
+    border-radius: 10px;
+    width: 463px;
+    margin: 0 30px 40px 0;
+
+}
+
+.news-info {
+    display: flex;
+}
+
+.description {
+    padding: 7px 10px 20px;
+}
+
+.description h2 {
+    color: #4d2a6b;
+}
+
+.description p {
+    padding-top: 5px;
+}
+
+.interaction-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 7px 10px 0 0;
+}
+
+.remove-favourites:active .white{
+	fill:white;
+}
+
+#details {
+    margin-top: 20px;
+}
+
+.view-more {
+    padding: 30px 0 30px 0;
+    text-align: center;
+}
+
+.view {
+    border: 0;
+    background-color: #4d2a6b;
+    color: #f7f7f7;
+    height: 65px;
+    width: 250px;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 10px;
+    font-family: 'Montserrat', 'Arial', sans-serif;
+}
+
+.view:hover {
+    cursor: pointer;
+}
+
+/* ПОДВАЛ */
+.page-footer {
+    background-color: #4d2a6b;
+}
+
+.page-footer_wrapper {
+    height: 100px;
+    position: relative;
+}
+
+.top-line, .bottom-line {
+    display: flex;
+    justify-content: space-evenly;
+    align-self: center;
+    flex-wrap: wrap;
+    height: 50px;
+
+}
+
+/* .top-line::after {
+    content: "";
+    position: absolute;
+    top: 50px;
+    width: 1903px;
+    height: 1px;
+    background-color: white;
+} */
+
+
+.top-line p, .bottom-line p {
+    font-family: 'Source Sans Pro', 'Arial', sans-serif;
+    color: #f7f7f7;
+    font-size: 15px;
+    justify-content: center;
+    align-self: center;
+    line-height: 3;
+    padding: 0;
+}
