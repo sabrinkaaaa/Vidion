@@ -71,10 +71,6 @@ header {
     top: 10px;
 }
 
-.user_nav {
-    /* position: relative; */
-}
-
 .user_nav::after {
     position: absolute;
     right: 105px;
