@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/css/publosh_news_application.css">
+    <title>Поиск</title>
+</head>
+<body>
+    <header class="page-header">
+        <div class="page-header__wrapper container">
+            <div class="page-header_logo">
+                <a href="404page.html"><img src="src/img/header_img/logo.svg" alt=""></a>
+            </div>
+
+            <div class="page-header search_block">
+                <input type="search" class="search_bar" name="search_field" placeholder="write something to search">
+                <svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <rect x="16.2399" y="17.4656" width="1.63521" height="4.36056" rx="0.817606" transform="rotate(-45.8689 16.2399 17.4656)" fill="#4D2A6B"/>
+                    <circle cx="11.2371" cy="11.0934" r="6.48254" transform="rotate(-45.8689 11.2371 11.0934)" stroke="#4D2A6B" stroke-width="2"/>
+                </svg>
+            </div>
+
+            <div class="page-header user_nav">
+                <img class="page-header__item" src="src/img/header_img/favourites.svg" alt="избранное">
+                <img class="page-header__item" src="src/img/header_img/notification.svg" alt="уведомления">
+                <img class="page-header__item" src="src/img/header_img/profile_photo.svg" alt="фото профиля">
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section>
+            <form name="publish_news" action="#" method="post">
+                <fieldset>
+                    <input type="text">
+                    <label for="title_news">Название</label>
+                </fieldset>
+                
+                <fieldset>
+                    <textarea name="description_news" id="" cols="30" rows="10"></textarea>
+                    <label for="description_news">Описание</label>
+                </fieldset>
+                    
+                <fieldset>
+                    <input type="text">
+                    <label for="link_to_news">Ссылка на материал</label>
+                </fieldset>
+
+                <fieldset>
+                    <input id="upload" type="file">
+                    <label id="upload_file" for="upload_file">Загрузить превью</label>
+                    <button class="generate-btn">Сгенерировать превью</button>
+                </fieldset>
+
+                <fieldset>
+                    <input id="price" type="text">
+                    <label id="set_price" for="upload_file">Цена</label>
+                </fieldset>
+
+                <div class="publish_news">
+                    <button class="publish_news-btn">Опубликовать</button>
+                </div>
+            </form>
+        </section>
+    </main>
+
+    <footer class="page-footer">
+        <div class="page-footer_wrapper">
+            <div class="top-line">
+                <p>О нас</p>
+                <p>Правила Vidion</p>
+                <p>Помощь</p>
+                <p>Мы Вконтакте</p>
+            </div>
+
+            <div class="bottom-line">
+                <p>Платформа «Vidion»</p>
+                <p>2023</p>
+            </div>
+        </div>            
+    </footer>
+</body>
+</html>

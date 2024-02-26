@@ -1,0 +1,182 @@
+html, body {
+    height: 100%;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    font-weight: 400;
+    background-color: #f9fdff;
+    margin: 0;
+    font-family: 'Source Sans Pro', 'Arial', sans-serif;
+}
+
+main {
+    flex: 1;
+}
+
+h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1440px;
+    min-width: 320px;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+
+/* ШАПКА */
+header {
+    background-color: #4d2a6b;
+    position:sticky;
+    top: 0;
+}
+
+.page-header__wrapper {
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.search_block {
+    display: block;
+    margin: auto auto auto 30px;
+    padding-bottom: 5px;
+}
+
+.search_bar {
+    border: 0;
+    border-radius: 30px;
+    width: 400px;
+    height: 25px;
+}
+.search_bar::placeholder {
+    padding-left: 20px;
+}
+
+.search_block svg {
+    position: relative;
+    right: 40px;
+    top: 10px;
+}
+
+.page-header__item {
+    margin-right: 40px;
+}
+
+/* MAIN */
+
+section {
+    padding-top: 50px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 800px;
+    margin: auto;
+}
+
+fieldset {
+    border: 0;
+    margin: 0;
+}
+
+form input, textarea {
+    border: 3px solid #4d2a6b;
+    width: 100%;
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+form label {
+    margin-top: 5px;
+    display: block;
+    font-size: 13px;
+}
+
+form input {
+    height: 30px;
+}
+
+.generate-btn {
+    margin-top: 5px;
+}
+
+.publish_news {
+    padding: 50px 0 50px 0;
+    text-align: center;
+
+}
+
+.publish_news-btn {
+    border: 0;
+    background-color: #4d2a6b;
+    color: #f7f7f7;
+    height: 50px;
+    width: 250px;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 10px;
+    cursor: pointer;
+    font-family: 'Montserrat', 'Arial', sans-serif;
+}
+
+.publish_news-btn:hover {
+    cursor: pointer;
+}
+
+
+
+/* FOOTER */
+.page-footer {
+    background-color: #4d2a6b;
+}
+
+.page-footer_wrapper {
+    height: 100px;
+    position: relative;
+}
+
+.top-line, .bottom-line {
+    display: flex;
+    justify-content: space-evenly;
+    align-self: center;
+    height: 50px;
+
+}
+
+/* .top-line::after {
+    content: "";
+    position: absolute;
+    top: 50px;
+    width: 1903px;
+    height: 1px;
+    background-color: white;
+} */
+
+
+
+.top-line p, .bottom-line p {
+    font-family: 'Source Sans Pro', 'Arial', sans-serif;
+    color: #f7f7f7;
+    font-size: 15px;
+    justify-content: center;
+    align-self: center;
+    font-weight: 400;
+    line-height: 3;
+    padding: 0;
+}
+
