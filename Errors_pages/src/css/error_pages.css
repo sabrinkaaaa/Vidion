@@ -101,13 +101,6 @@ header {
     margin-bottom: 20px;
 }
 
-/* MAIN */
-main {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
 .checkout-offer {
     text-align: right;
 }
@@ -115,10 +108,19 @@ main {
 .checkout-btn {
     padding: 7px 15px;
     border: 0;
+    cursor: pointer;
     background-color: #4d2a6b;
     border-radius: 10px;
     color: white;
     width: 150px;
+}
+
+
+/* MAIN */
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 h1 {
@@ -138,6 +140,7 @@ p {
 }
 
 .return-btn {
+    cursor: pointer;
     padding: 10px 15px;
     border: 0;
     background-color: #4d2a6b;
