@@ -33,7 +33,7 @@
         <section>
             <form name="publish_news" action="#" method="post">
                 <fieldset>
-                    <input type="text">
+                    <input id="title_news" type="text">
                     <label for="title_news">Название</label>
                 </fieldset>
                 
@@ -43,19 +43,19 @@
                 </fieldset>
                     
                 <fieldset>
-                    <input type="text">
+                    <input id="link_to_news" type="text">
                     <label for="link_to_news">Ссылка на материал</label>
                 </fieldset>
 
                 <fieldset>
-                    <input id="upload" type="file">
-                    <label id="upload_file" for="upload_file">Загрузить превью</label>
+                    <div class="upload_preview"></div>
+                    <button class="upload_preview-btn">Загрузить превью</button>
                     <button class="generate-btn">Сгенерировать превью</button>
                 </fieldset>
 
                 <fieldset>
-                    <input id="price" type="text">
-                    <label id="set_price" for="upload_file">Цена</label>
+                    <input id="set_price" type="text">
+                    <label id="price" for="set_price">Цена</label>
                 </fieldset>
 
                 <div class="publish_news">
