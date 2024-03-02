@@ -112,7 +112,7 @@ form input {
 }
 
 .upload_preview {
-    /* width: 480px; */
+    width: 480px;
     height: 320px;
     background-color: #d9d9d9;
 }
@@ -123,8 +123,9 @@ form input {
 
 .upload_preview-btn, 
 .generate-btn {
-    border-radius: 5px;
-    margin-top: 10px;
+    display: block;
+    border: 0;
+    margin-top: 3px;
     padding: 3px;
     font-size: 17px;
     background-color: #ffffff;
