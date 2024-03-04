@@ -115,11 +115,13 @@ form input {
 form textarea {
     font-family: 'SourceSansPro-Regular', 'Arial', sans-serif;
     font-size: 16px;
+    font-weight: 400;
 }
 
 #title_news {
     font-family: 'SourceSansPro-SemiBold', 'Arial', sans-serif;
     font-size: 20px;
+    font-weight: 600;
 }
 
 .upload_preview {
@@ -163,6 +165,7 @@ form textarea {
     border-radius: 10px;
     cursor: pointer;
     font-family: 'Montserrat-SemiBold', 'Arial', sans-serif;
+    font-weight: 600;
 }
 
 .publish_news-btn:hover {
