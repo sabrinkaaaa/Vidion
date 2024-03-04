@@ -4,8 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="src/css/publosh_news_application.css">
-    <link rel="stylesheet" href="src/js/script.js">
-    <title>Поиск</title>
 </head>
 <body>
     <header class="page-header">
@@ -32,19 +30,19 @@
 
     <main>
         <section>
-            <form name="publish_news" action="#" method="post">
+            <form name="publish_news" action="#" method="post"> 
                 <fieldset>
-                    <input id="title_news" type="text">
+                    <input id="title_news" type="text" maxlength="1000">
                     <label for="title_news">Название</label>
                 </fieldset>
                 
                 <fieldset>
-                    <textarea name="description_news" id="" cols="30" rows="10"></textarea>
+                    <textarea name="description_news" id="" cols="30" rows="10" maxlength="1000"></textarea>
                     <label for="description_news">Описание</label>
                 </fieldset>
                     
                 <fieldset>
-                    <input id="link_to_news" type="text">
+                    <input id="link_to_news" type="text" maxlength="1000">
                     <label for="link_to_news">Ссылка на материал</label>
                 </fieldset>
 
@@ -55,7 +53,7 @@
                 </fieldset>
 
                 <fieldset>
-                    <input id="set_price" type="text">
+                    <input id="set_price" type="number" maxlength="1000">
                     <label id="price" for="set_price">Цена</label>
                 </fieldset>
 
@@ -64,7 +62,7 @@
                 </div>
             </form>
         </section>
-        <script src="src/js/script.js"></script>
+        <!-- <script src="src/js/script.js"></script> -->
     </main>
 
     <footer class="page-footer">

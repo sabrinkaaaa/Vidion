@@ -23,7 +23,7 @@ h1, h2, h3, p {
 }
 
 .container {
-    max-width: 1440px;
+    max-width: 1400px;
     min-width: 320px;
     margin: 0 auto;
 }
@@ -70,8 +70,8 @@ header {
     top: 10px;
 }
 
-.page-header__item {
-    margin-right: 40px;
+.page-header__item:not(:last-child) {
+    margin-right: 30px;
 }
 
 /* MAIN */
@@ -127,7 +127,7 @@ form input {
     border: 0;
     margin-top: 3px;
     padding: 3px;
-    font-size: 15px;
+    font-size: 17px;
     background-color: #ffffff;
     color: #4d2a6b;
     font-weight: 600;
