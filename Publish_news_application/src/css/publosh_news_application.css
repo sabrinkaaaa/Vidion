@@ -109,6 +109,8 @@ form label {
 
 form input {
     height: 30px;
+    /* padding-left: 10px; */
+    text-indent: 1em;
 }
 
 .upload_preview {
@@ -125,12 +127,13 @@ form input {
 .generate-btn {
     display: block;
     border: 0;
-    margin-top: 3px;
-    padding: 3px;
+    padding: 0;
+    margin-top: 5px;
     font-size: 17px;
     background-color: #ffffff;
     color: #4d2a6b;
     font-weight: 600;
+    cursor: pointer;
 }
 
 .publish_news {
