@@ -10,7 +10,7 @@ body {
     font-weight: 400;
     background-color: #ffffff;
     margin: 0;
-    font-family: 'Source Sans Pro', 'Arial', sans-serif;
+    font-family: 'Montserrat-SemiBold', 'Arial', sans-serif;
 }
 
 main {
@@ -95,7 +95,7 @@ fieldset {
 form input, textarea {
     border: 4px solid #4d2a6b;
     width: 100%;
-    border-radius: 5px;
+    border-radius: 10px;
     box-sizing: border-box;
     margin: 0;
     padding: 0;
