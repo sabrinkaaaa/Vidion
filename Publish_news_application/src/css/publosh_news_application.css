@@ -10,7 +10,7 @@ body {
     font-weight: 400;
     background-color: #ffffff;
     margin: 0;
-    font-family: 'Montserrat-SemiBold', 'Arial', sans-serif;
+    font-family: 'SourceSansPro', 'Arial', sans-serif;
 }
 
 main {
@@ -99,6 +99,7 @@ form input, textarea {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    text-indent: 0.5em;
 }
 
 form label {
@@ -109,8 +110,16 @@ form label {
 
 form input {
     height: 30px;
-    /* padding-left: 10px; */
-    text-indent: 1em;
+}
+
+form textarea {
+    font-family: 'SourceSansPro-Regular', 'Arial', sans-serif;
+    font-size: 16px;
+}
+
+#title_news {
+    font-family: 'SourceSansPro-SemiBold', 'Arial', sans-serif;
+    font-size: 20px;
 }
 
 .upload_preview {
@@ -129,11 +138,12 @@ form input {
     border: 0;
     padding: 0;
     margin-top: 5px;
-    font-size: 17px;
+    font-size: 15px;
     background-color: #ffffff;
     color: #4d2a6b;
     font-weight: 600;
     cursor: pointer;
+    font-family: 'SourceSansPro-SemiBold', 'Arial', sans-serif;
 }
 
 .publish_news {
@@ -152,7 +162,7 @@ form input {
     text-align: center;
     border-radius: 10px;
     cursor: pointer;
-    font-family: 'Montserrat', 'Arial', sans-serif;
+    font-family: 'Montserrat-SemiBold', 'Arial', sans-serif;
 }
 
 .publish_news-btn:hover {
