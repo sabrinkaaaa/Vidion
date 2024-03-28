@@ -33,6 +33,11 @@ a {
     color: black;
 }
 
+button { 
+    font-family: 'Montserrat', 'Arial', sans-serif;
+    font-size: 16px;
+}
+
 
 /* ШАПКА */
 header {
@@ -113,8 +118,8 @@ header {
     border-radius: 10px;
     color: white;
     width: 150px;
+    font-size: 16px;
 }
-
 
 /* MAIN */
 main {
@@ -141,12 +146,12 @@ p {
 
 .return-btn {
     cursor: pointer;
-    padding: 10px 15px;
+    padding: 10px 20px;
     border: 0;
     background-color: #4d2a6b;
     border-radius: 10px;
     color: white;
-    width: 200px;
+
 }
 
 
@@ -168,15 +173,6 @@ p {
     height: 50px;
 
 }
-
-/* .top-line::after {
-    content: "";
-    position: absolute;
-    top: 50px;
-    width: 1903px;
-    height: 1px;
-    background-color: white;
-} */
 
 
 

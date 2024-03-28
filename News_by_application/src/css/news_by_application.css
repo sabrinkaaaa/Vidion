@@ -3,18 +3,13 @@ html, body {
 }
 
 body {
-    min-height: 100vh;
     display: flex;
     flex-direction: column;
     padding: 0;
     font-weight: 400;
-    background-color: #ffffff;
+    background-color: #f9fdff;
     margin: 0;
     font-family: 'Source Sans 3', 'Arial', sans-serif;
-}
-
-main {
-    flex: 1;
 }
 
 h1, h2, h3, p {
@@ -23,28 +18,31 @@ h1, h2, h3, p {
 }
 
 .container {
-    max-width: 1400px;
+    max-width: 1440px;
     min-width: 320px;
+    /* padding: 0 50px 0 50px; */
     margin: 0 auto;
 }
 
 a {
     text-decoration: none;
     color: black;
+    cursor: pointer;
 }
+
 
 
 /* ШАПКА */
 header {
-    background-color: #4d2a6b;
     position:sticky;
     top: 0;
+    background-color: #4d2a6b;
 }
 
 .page-header__wrapper {
     height: 60px;
     display: flex;
-    justify-content: space-between;
+    justify-content:space-between;
     align-items: center;
 }
 
@@ -70,107 +68,104 @@ header {
     top: 10px;
 }
 
-.page-header__item:not(:last-child) {
-    margin-right: 30px;
+.page-header__item {
+    margin-right: 20px;
 }
 
-/* MAIN */
 
-section {
+/* БЛОК НОВОСТЕЙ */
+main {
     padding-top: 50px;
+    flex-grow: 1;
 }
 
-form {
+.news-tape {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0;
+}
+
+.article-title {
+    padding: 10px 0 5px 10px;
+}
+
+.article-title h3 {
+    padding: 5px;
+
+}
+
+.news-profile {
+    display: flex;
+    align-items: center;
+}
+
+.news-profile p {
+    margin-left: 10px;
+}
+
+.news-card {
+    display: inline-block;
+    border: 2px solid #4d2a6b;
+    border-radius: 10px;
+    width: 463px;
+    margin: 0 30px 40px 0;
+
+}
+
+.news-info {
+    display: flex;
+}
+
+.description {
+    padding: 7px 10px 20px;
+}
+
+.description h2 {
+    color: #4d2a6b;
+}
+
+.description p {
+    padding-top: 5px;
+}
+
+.interaction-item {
     display: flex;
     flex-direction: column;
-    max-width: 800px;
-    margin: auto;
+    align-items: center;
+    padding: 7px 10px 0 0;
 }
 
-fieldset {
-    border: 0;
-    margin: 0;
+.remove-favourites:active .white{
+	fill:white;
 }
 
-form input, textarea {
-    border: 4px solid #4d2a6b;
-    width: 100%;
-    border-radius: 10px;
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    text-indent: 0.5em;
+#details {
+    margin-top: 20px;
 }
 
-form label {
-    margin-top: 5px;
-    display: block;
-    font-size: 13px;
-}
-
-form input {
-    height: 30px;
-}
-
-form textarea {
-    font-size: 16px;
-    font-weight: 400;
-}
-
-#title_news {
-    font-size: 20px;
-    font-weight: 600;
-}
-
-.upload_preview {
-    width: 480px;
-    height: 320px;
-    background-color: #d9d9d9;
-}
-
-.upload_preview-btn {
-    margin-right: 10px;
-}
-
-.upload_preview-btn, 
-.generate-btn {
-    display: block;
-    border: 0;
-    padding: 0;
-    margin-top: 5px;
-    font-size: 15px;
-    background-color: #ffffff;
-    color: #4d2a6b;
-    font-weight: 600;
-    cursor: pointer;
-}
-
-.publish_news {
-    padding: 50px 0 50px 0;
+.view-more {
+    padding: 20px 0 50px 0;
     text-align: center;
-
 }
 
-.publish_news-btn {
+.view {
     border: 0;
     background-color: #4d2a6b;
     color: #f7f7f7;
-    height: 50px;
+    height: 65px;
     width: 250px;
     font-size: 20px;
     text-align: center;
     border-radius: 10px;
-    cursor: pointer;
-    font-weight: 600;
+    font-family: 'Montserrat', 'Arial', sans-serif;
 }
 
-.publish_news-btn:hover {
+.view:hover {
     cursor: pointer;
 }
 
-
-
-/* FOOTER */
+/* ПОДВАЛ */
 .page-footer {
     background-color: #4d2a6b;
 }
@@ -184,20 +179,27 @@ form textarea {
     display: flex;
     justify-content: space-evenly;
     align-self: center;
+    flex-wrap: wrap;
     height: 50px;
 
 }
 
-
+/* .top-line::after {
+    content: "";
+    position: absolute;
+    top: 50px;
+    width: 1903px;
+    height: 1px;
+    background-color: white;
+} */
 
 
 .top-line p, .bottom-line p {
+    font-family: 'Source Sans 3', 'Arial', sans-serif;
     color: #f7f7f7;
     font-size: 15px;
     justify-content: center;
     align-self: center;
-    font-weight: 400;
     line-height: 3;
     padding: 0;
 }
-
