@@ -71,7 +71,7 @@ header {
 }
 
 .page-header__item:not(:last-child) {
-    margin-right: 30px;
+    margin-right: 20px;
 }
 
 /* MAIN */
@@ -82,15 +82,20 @@ header {
     font-family: 'Montserrat', 'Arial', sans-serif;
 }
 
-.block-price-application {
-    width: 840px;
-    padding: 12px 35px;
+.tape-application {
+    display: flex;
+    max-width: 840px;
+    flex-direction: column;
     margin: 0 auto;
+    row-gap: 30px;
+}
+
+.block-application {
+    padding: 12px 35px;
     display: flex;
     background-color: #f7f7f7;
     justify-content: space-between;
     border-radius: 10px;
-    margin-bottom: 30px;
     border: 2px solid #4d2a6b;
 }
 

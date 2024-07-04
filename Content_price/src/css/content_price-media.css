@@ -1,0 +1,67 @@
+@media screen and (max-width: 1440px) {
+    /* Header */
+    .page-header__wrapper {
+        padding: 0 30px;
+    }
+
+    /* Price blocks */
+    .block-application {
+        margin: 0 20px;
+    }
+}
+
+
+@media screen and (max-width: 860px) {
+    /* Header */
+    .search_block {
+        margin: 5px 0 0 auto;
+        padding:0;
+    }
+
+    .search_bar {
+        display: none;
+    }
+
+    .search_block svg {
+        position: inherit;
+        margin-right: 10px;
+        height: 46px;
+        width: 46px;
+    }
+
+    .search_block svg rect {
+        fill:white;
+    }
+
+    .search_block svg circle {
+        stroke:white;
+    }
+
+    /* Main */
+
+    #top-heading {
+        padding: 30px;
+    }
+}
+
+
+@media screen and (max-width: 460px) {
+    .block-application {
+        display: flex;
+        flex-direction: column;
+        padding: 12px 10px;
+    }
+
+    .user-profile {
+        padding-bottom: 10px;
+    }
+
+    .price-offer {
+        padding-bottom: 7px;
+    }
+    
+    .view_more-btn {
+        width: 350px;
+        max-height: 50px;
+    }
+}

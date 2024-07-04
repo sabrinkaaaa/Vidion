@@ -78,13 +78,13 @@ header {
 
 .user_nav::after {
     position: absolute;
-    right: 105px;
+    right: 40px;
     top: 30px;
     content: url('../img/header_img/notification_came.svg');
 }
 
-.page-header__item {
-    margin-right: 40px;
+.page-header__item:not(:last-child) {
+    margin-right: 20px;
 }
 
 .offer_price_notific {
@@ -124,8 +124,14 @@ header {
 /* MAIN */
 main {
     display: flex;
+    align-items: flex-end;
     justify-content: center;
-    align-items: center;
+    padding-bottom: 70px;
+}
+
+.block_404-error {
+    display: flex;
+    flex-direction: column;
 }
 
 h1 {
