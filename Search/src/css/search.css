@@ -70,8 +70,8 @@ header {
     top: 10px;
 }
 
-.page-header__item {
-    margin-right: 40px;
+.page-header__item:not(:last-child) {
+    margin-right: 20px;
 }
 
 /* MAIN */
@@ -142,11 +142,11 @@ b {
 
 
 /* ASIDE */
-.content-application {
-    width: 288px;
+.right-panel__content-application {
+    min-width: 280px;
 }
 
-.content, .application, .publish {
+.content, .application {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -157,7 +157,7 @@ b {
     font-family: 'Montserrat', 'Arial', sans-serif;
 }
 
-.content, .publish {
+.content {
     color: #090909;
     background-color: #f7f7f7;
 }
@@ -166,10 +166,6 @@ b {
     color: #f7f7f7;
     background-color: #4d2a6b;
 
-}
-
-.publish-new {
-    margin-top: 70px;
 }
 
 .view-more {
