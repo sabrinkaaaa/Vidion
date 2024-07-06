@@ -71,7 +71,6 @@
 @media screen and (max-width: 490px) {
     .news-card, .news-preview img  {
         width: 400px;
-        margin: 0 0 20px 0;
     }
 
     .view-more {
@@ -86,7 +85,6 @@
 @media screen and (max-width: 420px) {
     .news-card, .news-preview img  {
         width: 300px;
-        margin: 0 0 20px 0;
     }
 
     .view-more {
