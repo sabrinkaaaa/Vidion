@@ -65,7 +65,7 @@ header {
     top: 10px;
 }
 
-.page-header__item {
+.page-header__item:not(:last-child) {
     margin-right: 20px;
 }
 
@@ -78,14 +78,12 @@ main {
 
 .page-main {
     display: flex;
-    justify-content: space-between;
-    padding: 0 10% 0 10%;
+    justify-content: space-evenly;
 }
 
 .news-tape {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+    flex-direction: column;
     padding: 0;
 }
 
@@ -104,8 +102,6 @@ main {
     border: 2px solid #4d2a6b;
     padding: 20px;
     border-radius: 10px;
-    /* width: 900px; */
-    margin: 0 30px 40px 0;
 }
 
 .news-card > *, 
@@ -124,8 +120,6 @@ main {
 }
 
 .interaction-button {
-    display: flex;
-    flex-direction: column;
     margin-top: 50px;
 }
 

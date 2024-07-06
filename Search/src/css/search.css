@@ -119,6 +119,8 @@ b {
 
 .news-info {
     display: flex;
+    justify-content: space-between;
+    column-gap: 20px;
 }
 
 .interaction-item {
