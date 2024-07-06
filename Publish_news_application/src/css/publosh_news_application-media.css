@@ -1,0 +1,64 @@
+@media screen and (max-width: 1440px) {
+    /* Header */
+    .page-header__wrapper {
+        padding: 0 20px;
+    }
+
+    /* Price blocks */
+    .block-application {
+        margin: 0 20px;
+    }
+}
+
+
+@media screen and (max-width: 860px) {
+    /* Header */
+    .search_block {
+        margin: 5px 0 0 auto;
+        padding:0;
+    }
+
+    .search_bar {
+        display: none;
+    }
+
+    .search_block svg {
+        position: inherit;
+        margin-right: 10px;
+        height: 46px;
+        width: 46px;
+    }
+
+    .search_block svg rect {
+        fill:white;
+    }
+
+    .search_block svg circle {
+        stroke:white;
+    }
+
+    /* Main */
+
+    #top-heading {
+        padding: 30px;
+    }
+
+    section {
+        padding: 30px 20px 0 20px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .page-header__item:not(:last-child) {
+        margin-right: 15px;
+    }
+
+    .publish_news {
+        padding: 30px 0 30px 0;
+    
+    }
+    
+    .publish_news-btn {
+        height: 40px;
+    }    
+}
