@@ -33,6 +33,10 @@ a {
     color: black;
 }
 
+btn {
+    font-family: 'SourceSansPro', 'Arial', sans-serif;
+}
+
 
 /* ШАПКА */
 header {

@@ -10,7 +10,7 @@ body {
     font-weight: 400;
     background-color: #f9fdff;
     margin: 0;
-    font-family: 'Montserrat', 'Arial', sans-serif;
+    font-family: 'SourceSansPro', 'Arial', sans-serif;
 }
 
 main {
@@ -34,7 +34,7 @@ a {
 }
 
 button { 
-    font-family: 'Montserrat', 'Arial', sans-serif;
+    font-family: 'SourceSansPro', 'Arial', sans-serif;
     font-size: 16px;
 }
 
