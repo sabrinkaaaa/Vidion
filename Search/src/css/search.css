@@ -95,7 +95,7 @@ b {
     padding: 10px 15px 30px 15px;
     border: 2px solid #4d2a6b;
     border-radius: 10px;
-    max-width: 700px;
+    max-width: 600px;
     margin: 0 auto 50px auto;
 
 }
@@ -116,6 +116,10 @@ b {
 #profile-photo {
     margin-right: 10px;
 }
+
+/* .news-preview {
+    max-width: 100%;
+} */
 
 .news-info {
     display: flex;
@@ -156,7 +160,6 @@ b {
     border-radius: 15px;
     text-decoration: none;
     font-size: 20px;
-    font-family: 'Montserrat', 'Arial', sans-serif;
 }
 
 .content {
@@ -186,7 +189,6 @@ b {
     text-align: center;
     border-radius: 10px;
     cursor: pointer;
-    font-family: 'Montserrat', 'Arial', sans-serif;
 }
 
 .view:hover {
@@ -226,7 +228,6 @@ b {
 
 
 .top-line p, .bottom-line p {
-    font-family: 'Source Sans 3', 'Arial', sans-serif;
     color: #f7f7f7;
     font-size: 15px;
     justify-content: center;

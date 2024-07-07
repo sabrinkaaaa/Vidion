@@ -55,8 +55,16 @@
 }
 
 @media screen and (max-width: 730px) {
-    h1 {
-        padding: 20px 0;
+    main {
+        align-items: flex-end;
+    }
+    
+    .block_404-error {
+        padding-bottom: 20%;
+    }
+}
+    /* h1 {
+        padding: 0 0 20px 0;
     }
     
     .block_404-error {
@@ -66,6 +74,6 @@
 
 @media screen and (max-width: 380px) {
     .block_404-error p {
-        padding-bottom: 40px;
+        padding-bottom: 20px;
     }
-}
+} */

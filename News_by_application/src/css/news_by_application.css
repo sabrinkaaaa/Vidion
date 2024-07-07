@@ -158,7 +158,6 @@ main {
     font-size: 20px;
     text-align: center;
     border-radius: 10px;
-    font-family: 'Montserrat', 'Arial', sans-serif;
 }
 
 .view:hover {
@@ -195,7 +194,6 @@ main {
 
 
 .top-line p, .bottom-line p {
-    font-family: 'Source Sans 3', 'Arial', sans-serif;
     color: #f7f7f7;
     font-size: 15px;
     justify-content: center;
