@@ -30,6 +30,10 @@ a {
     cursor: pointer;
 }
 
+.btn {
+    font-family: 'Montserrat', 'Arial', sans-serif;
+}
+
 
 
 /* ШАПКА */

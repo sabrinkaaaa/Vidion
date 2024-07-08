@@ -33,6 +33,9 @@ a {
     color: black;
 }
 
+.links, .btn {
+    font-family: 'Montserrat', 'Arial', sans-serif;
+}
 
 /* ШАПКА */
 header {
