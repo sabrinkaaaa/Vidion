@@ -10,7 +10,7 @@ body {
     font-weight: 400;
     background-color: #ffffff;
     margin: 0;
-    font-family: 'SourceSansPro', 'Arial', sans-serif;
+    font-family: 'SourceSans3', sans-serif;
 }
 
 main {
@@ -33,8 +33,8 @@ a {
     color: black;
 }
 
-btn {
-    font-family: 'SourceSansPro', 'Arial', sans-serif;
+.btn {
+    font-family: 'Montserrat', sans-serif;
 }
 
 
@@ -186,7 +186,6 @@ header {
 
 
 .top-line p, .bottom-line p {
-    font-family: 'Source Sans Pro', 'Arial', sans-serif;
     color: #f7f7f7;
     font-size: 15px;
     justify-content: center;

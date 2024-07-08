@@ -54,26 +54,8 @@
     }
 }
 
-@media screen and (max-width: 730px) {
-    main {
-        align-items: flex-end;
-    }
-    
+@media screen and (max-width: 410px) {
     .block_404-error {
-        padding-bottom: 20%;
+        padding-top: 20%;
     }
 }
-    /* h1 {
-        padding: 0 0 20px 0;
-    }
-    
-    .block_404-error {
-        padding: 0 20px;
-    }
-}
-
-@media screen and (max-width: 380px) {
-    .block_404-error p {
-        padding-bottom: 20px;
-    }
-} */

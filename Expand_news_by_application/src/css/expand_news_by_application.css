@@ -28,6 +28,10 @@ a {
     color: black;
 }
 
+.btn {
+    font-family: 'Montserrat', 'Arial', sans-serif;
+
+}
 
 /* ШАПКА */
 header {
@@ -135,7 +139,6 @@ main {
     text-align: center;
     border-radius: 10px;
     cursor: pointer;
-    font-family: 'SourceSansPro', 'Arial', sans-serif;
 }
 
 
@@ -169,7 +172,6 @@ main {
 
 
 .top-line p, .bottom-line p {
-    font-family: 'Source Sans 3', 'Arial', sans-serif;
     color: #f7f7f7;
     font-size: 15px;
     justify-content: center;
