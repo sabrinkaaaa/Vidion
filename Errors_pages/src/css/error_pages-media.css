@@ -7,7 +7,7 @@
     
     /* Header */
     .page-header__wrapper {
-        padding: 0 30px;
+        padding: 0 20px;
     }
 
     .user_nav::after {
@@ -51,6 +51,12 @@
     .offer_price_notific {
         width: auto;
         margin: 0 20px 0 20px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .block_404-error {
+        padding: 0 15px;
     }
 }
 

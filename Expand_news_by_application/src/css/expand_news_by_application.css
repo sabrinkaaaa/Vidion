@@ -30,7 +30,7 @@ a {
 
 .btn {
     font-family: 'Montserrat', 'Arial', sans-serif;
-
+    font-weight: 600;
 }
 
 /* ШАПКА */
@@ -124,7 +124,7 @@ main {
 }
 
 .interaction-button {
-    margin-top: 50px;
+    padding: 30px 0 30px 0;
 }
 
 .accept-request-btn {
