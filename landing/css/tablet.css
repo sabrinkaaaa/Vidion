@@ -1,0 +1,408 @@
+@media screen and (max-width:1750px) {
+    .slider{
+        width: 590px;
+    }
+}
+@media screen and (max-width:1513px) {
+    .about_title{
+        display: none;
+    }
+    .about_title{
+        padding: 0;
+        display: block;
+        width:70%
+    }
+    .left_part{
+        margin-top: 0;
+    }
+    .inner_right_container{
+        margin-top: 0;
+    }
+    .left_part p{
+        width: 100%;
+    }
+    .line{
+        top:0px;
+        height: 700px;
+    }
+    .inner_left_wrapper{
+        width: 100%;
+    }
+    .problems{
+        height: 300px;
+    }
+    .text_problem h3{
+        margin-bottom: 10px;
+    }
+    .problems p{
+        margin-bottom: 30px;
+    }
+    .news_wrapper{
+        grid-template-columns: 1fr;
+    }
+    .slider{
+        width: 890px;
+    }
+}
+@media screen and (max-width:1235px) {
+    .logo svg{
+        height: 40px;
+        width: 153px;
+    }
+    .navigation{
+        right: -260px;
+        background: rgba(0, 0, 0, 0.407);
+        height: 100%;
+        top:0;
+        align-items: center;
+        padding-left: 60px
+    }
+    .navigation_circle{
+        display: block;
+    }
+    /* .navigation_in_header{
+        min-width: 35%;
+    } */
+    .sign{
+        height: 40px;
+        width: 100px;
+    }
+    .sign::before{
+        width: 110px;
+        height: 50px;
+    }
+    .tel{
+        width: 40px;
+        height: 40px;
+    }
+    .tel svg{
+        width: 20px;
+        height: 20px;
+    }
+    .intro{
+        flex-direction: column;
+    }
+    .first_section_text{
+        width: 100%;
+    }
+    .first_section_text p{
+        font-size: 20px;
+    }
+    h1{
+        font-size: 36px;
+    }
+    h2{
+        font-size: 20px;
+    }
+    h2{
+        font-size: 18px;
+    }
+    h3{
+        font-size: 14px;
+    }
+    .activity h1 {
+        width: 445px;
+    }
+    .top_desc p{
+        font-size: 16px;
+    }
+    .bottom_desc p{
+        font-size: 14px;
+    }
+    .activity{
+        justify-content: center;
+        width:70%;
+    }
+    .activity_bar{
+        width: 100%;
+    }
+    .social_media{
+        height: 70%;
+        flex-direction: column;
+    }
+    /* .vk{
+        width: 200px;
+    } */
+    .input_social_media{
+        width:500px;
+    }
+    .sub{
+        width:440px;
+        font-size: 14px;
+    }
+    .post_icon svg, .sub_btn svg{
+        width: 20px;
+        height: 20px;
+    }
+    .social_media, .social h1{
+        margin-bottom: 50px;
+    }
+    #menu{
+
+    }
+    #menu:hover svg{
+        fill: #8B8B8B
+    }
+    .about_wrapper{
+        grid-template-columns: 1fr;
+    }
+    .about_title{
+        font-size: 30px;
+    }
+    .line{
+        display: none;
+    }
+    .right_part{
+        grid-column: 1;
+        grid-row: 2;
+    }
+    .inner_right_container{
+        margin-left: 0;
+    }
+    .team_list{
+        flex-wrap: wrap;
+    }
+    .buttons{
+        margin-bottom: 20px;
+    }
+    .buttons_container{
+        margin-bottom: 50px;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .faq_wrapper{
+        grid-template-columns: 1fr;
+    }
+    #close{
+        display: block;
+        background: none;
+        border-radius: 100px;
+        -webkit-border-radius: 100px;
+        -moz-border-radius: 100px;
+        -ms-border-radius: 100px;
+        -o-border-radius: 100px;
+        width: 24px;
+        height: 24px;
+        position: absolute;
+        top: 60px;
+        left: 30px;
+    }
+}
+@media screen and (max-width:1077px){
+    .slider{
+        width: 590px;
+    }
+    .partners_images img{
+        width:15em;
+    }
+}
+@media screen and (max-width:816px) {
+    .social_link img{
+        height: 4em;
+    }
+    .about_title{
+        font-size: 28px;
+    }
+    .left_part p{
+        width: 100%;
+        font-size: 12px;
+    }
+    
+    .inner_left_wrapper h2{
+        font-size: 28px;
+    }
+    .inner_right_container{
+        grid-template-rows: 0.5fr 1fr 0.5fr 1fr 0.5fr 1fr;
+    }
+    .team_background {
+        display: none;
+    }
+    .button_faq{
+        width:180px;
+        font-size: 16px;
+    }
+}
+@media screen and (max-width:780px){
+    .sign{
+        width: 40px;
+    }
+    .activity h1 {
+        font-size: 30px;
+        width: 420px;
+    }
+    .sign svg{
+        margin-right: 0;
+    }
+    .sign::before{
+        width: 50px;
+        height: 50px;
+    }
+    .about_title{
+        font-size: 24px;
+    }
+    .icon_problem{
+        width: 60px;
+        height: 60px;
+    }
+    .icon_problem svg{
+        width: 30px;
+        height: 30px;   
+    }
+    .advantages_circle{
+        width: 60px;
+        height: 60px;
+    }
+    .advantages_circle svg{
+        width: 30px;
+        height: 30px; 
+    }
+    .item_advantages p{
+        font-size: 10px;
+    }
+    .slider{
+        width: 310px;
+    }
+    .question p {
+        font-size: 16px;
+    }
+}
+@media screen and (max-width:668px) {
+
+    .first_section_text p{
+        font-size: 16px;
+    }
+    h1{
+        font-size: 26px;
+    }
+    h2{
+        font-size: 16px;
+    }
+    h2{
+        font-size: 10px;
+    }
+    h3{
+        font-size: 8px;
+    }
+    .activity{
+        justify-content: center;
+        width: 85%;
+    }
+    .activity h1 {
+        font-size: 26px;
+        width: 320px;
+    }
+    .social_link img{
+        height: 3em;
+    }
+    .input_social_media{
+        width:320px;
+    }
+    .sub{
+        padding-left: 40px;
+        font-size: 12px;
+        height:40px;
+        width:270px;
+    }
+    .sub_btn{
+        height: 40px;
+        width: 50px;
+    }
+    .sub_btn::before{
+        height: 47px;
+        width: 57px;
+        top:-4px;
+        left:-3px;
+    }
+    .post_icon{
+        left:15px;
+    }
+    .about_title{
+        font-size: 20px;
+    }
+    .right_part{
+        margin-top: 150px;
+    }
+    .team_member h2{
+        font-size: 18px;
+    }
+    .team_member h3{
+        font-size: 14px;
+    }
+    .link_sub{
+        font-size: 16px;
+    }
+    .buttons_slider{
+        justify-content: space-between;
+    }
+    .slider{
+        width: 285px;
+    }
+    .slider h3{
+        font-size: 12px;
+    }
+    .partners_images{
+        flex-direction: column;
+    }
+    .partners_images img{
+        margin-bottom: 50px;
+    }
+    .partners_wrapper h1 {
+        margin-bottom: 50px;
+    }
+    .question p {
+        font-size: 8px;
+    }
+    .button_faq{
+        width:140px;
+        height: 30px;
+        font-size: 12px;
+    }
+}
+@media screen and (max-width:534px){
+    .logo svg {
+        height: 40px;
+        width: 103px;
+    }
+    /* .navigation_in_header {
+        min-width: 55%;
+    } */
+    .activity h1{
+        width: 200px;
+    }
+    
+.bar_slider span::before {
+    border: 12px solid transparent;
+    border-bottom: 20px solid #342c49;
+}
+    .icon_problem{
+        margin-right: 10px;
+        margin-bottom: 10px;
+    }
+    .text_problem h3{
+        font-size: 16px;
+    }
+    .text_problem p{
+        font-size: 10px;
+    }
+    .problems{
+        grid-template-columns: 1fr;
+    }
+    .right_part{
+        margin-top: 270px;
+    }
+    .right_container_item img {
+        position: absolute;
+        top: -10px;
+        right: -30px;
+        width: 105px;
+    }
+    .button_faq{
+        width:120px;
+        height: 30px;
+        font-size: 10px;
+    }
+    .partners_wrapper, .team_wrapper{
+        margin-top: 200px;
+        margin-bottom: 200px;
+    }
+}

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/player.css" media="all">
+    <link rel="stylesheet" href="./css/fonts.css" media="all">
+    <title>Document</title>
+</head>
+<body>
+    <div class="video_player">
+        <button class="exit"><svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 94.926 94.926" style="enable-background:new 0 0 94.926 94.926;" xml:space="preserve"><g><path d="M55.931,47.463L94.306,9.09c0.826-0.827,0.826-2.167,0-2.994L88.833,0.62C88.436,0.224,87.896,0,87.335,0 c-0.562,0-1.101,0.224-1.498,0.62L47.463,38.994L9.089,0.62c-0.795-0.795-2.202-0.794-2.995,0L0.622,6.096 c-0.827,0.827-0.827,2.167,0,2.994l38.374,38.373L0.622,85.836c-0.827,0.827-0.827,2.167,0,2.994l5.473,5.476 c0.397,0.396,0.936,0.62,1.498,0.62s1.1-0.224,1.497-0.62l38.374-38.374l38.374,38.374c0.397,0.396,0.937,0.62,1.498,0.62 s1.101-0.224,1.498-0.62l5.473-5.476c0.826-0.827,0.826-2.167,0-2.994L55.931,47.463z" fill="#000000" style="fill: rgb(117, 117, 117);"></path></g></svg></button>
+        <video src="video.mp4" poster="" class="video"></video>
+        <div class="player_controls">
+            <div class="video_progress">
+                <div class="video_progress_filled"></div>
+            </div>
+            <button class="play_button" title="Play">
+                <svg viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg"><g id="Play"><path d="m37.3223 21.2861-23.9307-11.9629a3.0347 3.0347 0 0 0 -4.3916 2.7129v23.9278a3.03 3.03 0 0 0 4.3916 2.7129l23.9307-11.9629a3.0338 3.0338 0 0 0 0-5.4277z" fill="#000000" style="fill: rgb(255, 255, 255);"></path></g></svg>
+            </button>
+            <div class="volume_wrapper">
+                <svg id="Layer_1" enable-background="new 0 0 512 512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"><g><path d="m336 64v384c0 5.761-3.2 11.2-8.32 14.08-2.399 1.28-4.96 1.92-7.68 1.92-3.04 0-5.92-.8-8.64-2.56l-151.36-96.32v-218.24l151.36-96.32c4.96-3.2 11.199-3.36 16.319-.641 5.121 2.881 8.321 8.321 8.321 14.081z" fill="#000000" style="fill: rgb(255, 255, 255);"></path><g><path d="m376.078 311.927c-5.023 0-9.907-2.613-12.588-7.282-3.988-6.945-1.591-15.808 5.354-19.795 10.274-5.9 16.656-16.955 16.656-28.85s-6.383-22.95-16.656-28.85c-6.944-3.988-9.342-12.851-5.354-19.795 3.987-6.945 12.85-9.341 19.795-5.354 19.254 11.057 31.215 31.748 31.215 53.999 0 22.252-11.961 42.942-31.215 53.998-2.276 1.306-4.759 1.929-7.207 1.929z" fill="#000000" style="fill: rgb(255, 255, 255);"></path></g><g><path d="m400.014 353.542c-5.019 0-9.898-2.608-12.582-7.271-3.993-6.94-1.604-15.806 5.337-19.8 25.124-14.456 40.731-41.46 40.731-70.471s-15.607-56.015-40.732-70.472c-6.94-3.994-9.329-12.859-5.335-19.8 3.994-6.94 12.857-9.331 19.8-5.336 34.089 19.617 55.267 56.252 55.267 95.608 0 39.357-21.178 75.992-55.269 95.608-2.278 1.311-4.764 1.934-7.217 1.934z" fill="#000000" style="fill: rgb(255, 255, 255);"></path></g><path d="m128 160v192h-32c-26.4 0-48-21.6-48-48v-96c0-26.399 21.6-48 48-48z" fill="#000000" style="fill: rgb(255, 255, 255);"></path></g></svg>
+            </div>
+            <input type="range" class="volume" min="0" max="1" step="0.01" value="1"/>
+            <div class="time">
+                <span class="current">0:00</span> / <span class="duration">0:00</span>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="player.js"></script>
+</html>
